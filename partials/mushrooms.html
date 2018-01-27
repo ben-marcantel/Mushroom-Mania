@@ -1,0 +1,13 @@
+<div>
+    <input type="text"  ng-model="mushroomName">
+    <button type="radio" ng-click="edible= true">Edible</button>
+    <button type="radio" ng-click="edible= false">Poisonous</button> 
+    <ul>
+        <li ng-repeat = " mushroom in mushrooms | filter: mushroomName " > 
+            {{mushroom.name}} : {{mushroom.description}}
+        </li>
+    </ul>
+</div>
+
+
+
