@@ -10,6 +10,10 @@ li{
     margin: 1rem;
 }
 input[type=text] {
-    background-color: rgba(60, 188, 141, 0);
-    color: (221, 0, 173);
+    background-color: rgb(180, 0, 141);
+    border: none;
+    color:white
+}
+md-input-container .md-input {
+    color: rgba(255,255,255,0.87);
 }
