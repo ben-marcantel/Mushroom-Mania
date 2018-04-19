@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: rgb(221, 0, 173);
+    font-family: "futura";
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 1rem;
+}
+input[type=text] {
+    background-color: rgba(60, 188, 141, 0);
+    color: (221, 0, 173);
+}
